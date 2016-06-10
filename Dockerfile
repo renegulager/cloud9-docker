@@ -9,7 +9,7 @@ MAINTAINER René Gulager Larsen <mail@renegulager.dk
 # ------------------------------------------------------------------------------
 # Install base
 RUN apt-get update
-RUN apt-get install -y build-essential g++ curl libssl-dev apache2-utils git libxml2-dev sshfs python2.7
+RUN apt-get install -y build-essential g++ curl libssl-dev apache2-utils git libxml2-dev sshfs python2.7 php7.0
 
 
 # ------------------------------------------------------------------------------
