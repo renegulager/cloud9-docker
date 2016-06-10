@@ -15,9 +15,6 @@ docker build -t="renegulager/cloud9-docker" github.com/renegulager/cloud9-docker
 
 ## Usage  (binds to port 9999)
 
- (sudo?)   docker run -it -d -p 9999:80 -v /your-path/workspace/:/workspace/ renegulager/cloud9-docker
+ (sudo?)   docker run -it -d -p 9999:80 -p 8080:8080 -p 8081:8081 -v /your-path/workspace/:/workspace/ renegulager/cloud9-docker
 
 
-
-##TODO
-The buildin webserver don't work 
