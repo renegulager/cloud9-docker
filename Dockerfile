@@ -65,7 +65,6 @@ RUN apt-get upgrade -y
 # ------------------------------------------------------------------------------
 # Expose ports.
 EXPOSE 80
-EXPOSE 3000
 EXPOSE 8080
 EXPOSE 8081
 EXPOSE 8082
